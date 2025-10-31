@@ -13,7 +13,7 @@ header('Content-Type: application/json; charset=utf-8');
 // ⚙️ Access Token
 $access_token = getenv('MP_ACCESS_TOKEN');
 if (!$access_token) {
-    $access_token = 'APP_USR-2221051077100454-101711-2e56ad1a374acc9fcb5370beb067fe35-169840778'; // teste
+    $access_token = 'APP_USR-xxxxxxxxxxxxxxxx-xxxxxx-xxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxx'; // teste
 }
 
 // 📥 Receber dados JSON
