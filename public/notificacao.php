@@ -3,7 +3,7 @@
 header('Content-Type: application/json; charset=utf-8');
 
 // Access Token
-$access_token = 'APP_USR-2221051077100454-101711-2e56ad1a374acc9fcb5370beb067fe35-169840778'; // mesmo usado em criar_pagamento.php
+$access_token = 'APP_USR-xxxxxxxxxxxxxxxx-xxxxxx-xxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxx'; // mesmo usado em criar_pagamento.php
 
 // Receber notificação
 $raw = file_get_contents('php://input');
